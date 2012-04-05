@@ -16,6 +16,7 @@
 <body id="pvaat" onload="">
 <h1 id="php_variable_test">PHP Variable Test</h1>
 <p>PHP version <?php echo phpversion(); ?></p>
+<p>This page on <a href="https://github.com/mblarsen/PHP-Variable-Test">GitHub</a>.</p>
 <?php
 //ini_set("error_reporting", E_ALL | E_STRICT);
 ini_set("error_reporting", E_ALL | E_STRICT);
@@ -36,7 +37,9 @@ $values = array(
 	'"0"'       => function (&$v) { $v = "0"; },
 	'" "'       => function (&$v) { $v = " "; },
 	'"str"'     => function (&$v) { $v = "str"; },
+	'"000str"'  => function (&$v) { $v = "000str"; },
 	'"123str"'  => function (&$v) { $v = "123str"; },
+	'"str000"'  => function (&$v) { $v = "str000"; },
 	'"str123"'  => function (&$v) { $v = "str123"; },
 	'array()'   => function (&$v) { $v = array(); },
 	'array(1)'  => function (&$v) { $v = array(1); },
