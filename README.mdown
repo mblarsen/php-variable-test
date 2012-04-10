@@ -7,4 +7,4 @@ A simple script that outputs a table of how PHP evalutaes variables and boolean 
 	
 Check more at [this page](http://codeboutique.com/tools/pvaat/pvaat.php "pvaat").
 
-The script is strongly inspired by [this page](http://www.deformedweb.co.uk/php_variable_tests.php "PHP Variable and Array Tests") by Barray.
+The script is strongly inspired by [this page](http://www.deformedweb.co.uk/php_variable_tests.php "PHP Variable and Array Tests") by Barry.
