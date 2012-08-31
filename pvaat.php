@@ -110,7 +110,7 @@ echo "</table>";
 
 echo '<h2>Boolean comparison</h2>';
 
-$operators = array('==', '===', '!=', '!==', '<', '<=', '>', '>=');
+$operators = array('==', '===', '!=', '!==', '<', '<=', '>', '>=', '||', 'or', '&&', 'and');
 
 echo "<table>";
 
@@ -142,6 +142,14 @@ foreach ($operators as $operator) {
 				$result = $v1 > $v2;
 			} else if ('>=' === $operator) {
 				$result = $v1 >= $v2;
+			} else if ('||' === $operator) {
+				$result = $v1 || $v2;
+			} else if ('or' === $operator) {
+				$result = $v1 or $v2;
+			} else if ('&&' === $operator) {
+				$result = $v1 && $v2;
+			} else if ('and' === $operator) {
+				$result = $v1 and $v2;
 			}
 			if ($result) {
 				echo '<td class="result true">true</td>';
