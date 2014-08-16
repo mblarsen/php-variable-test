@@ -4,7 +4,5 @@ A simple script that outputs a table of how PHP evalutaes variables and boolean 
 	0 == "str123" // equals true
 	0 == "000str" // equals true
 	0 == "123str" // equals false <-- hmm
-	
-Check more at [this page](http://codeboutique.com/tools/pvaat/pvaat.php "pvaat").
 
 The script is strongly inspired by [this page](http://www.deformedweb.co.uk/php_variable_tests.php "PHP Variable and Array Tests") by Barry.
